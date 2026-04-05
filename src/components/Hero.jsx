@@ -18,15 +18,20 @@ export default function Hero() {
       }}>
         {/* Placeholder for real transport video, using a royalty free transportation video */}
         <iframe
-          src="https://player.cloudinary.com/embed/?cloud_name=dulexknqv&public_id=uiu_hjcz3d&autoplay=1&muted=1&loop=1"
+          src="https://player.cloudinary.com/embed/?cloud_name=dulexknqv&public_id=uiu_hjcz3d&fluid=true&autoplay=true&muted=true&loop=true&controls=false&show_logo=false"
           allow="autoplay; fullscreen"
           allowFullScreen
           style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            width: "100vw",
+            height: "56.25vw", // 16:9 aspect ratio
+            minHeight: "100vh",
+            minWidth: "177.77vh", // 16:9 aspect ratio
             border: "none",
-            pointerEvents: "none" // makes it behave like background
+            pointerEvents: "none"
           }}
         />
         {/* Dark overlay */}
