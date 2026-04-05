@@ -17,15 +17,15 @@ export default function Hero() {
         zIndex: 0
       }}>
         {/* Placeholder for real transport video, using a royalty free transportation video */}
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-        >
-          <source src="https://streamable.com/6xpb41" type="video/mp4" />
-        </video>
+<video
+  autoPlay
+  loop
+  muted
+  playsInline
+  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+>
+  <source src="https://streamable.com/e/6xpb41?" type="video/mp4" />
+</video>
         {/* Dark overlay */}
         <div style={{
           position: 'absolute',
