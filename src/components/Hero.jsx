@@ -16,30 +16,16 @@ export default function Hero() {
         top: 0, left: 0, right: 0, bottom: 0,
         zIndex: 0
       }}>
-   {/* Background Video using Streamable iframe */}
-<div
-  style={{
-    position: "absolute",
-    top: 0,
-    left: 0,
-    width: "100%",
-    height: "100%",
-    overflow: "hidden"
-  }}
->
-  <iframe
-    src="https://streamable.com/e/6xpb41?autoplay=1&muted=1&loop=1"
-    allow="autoplay; fullscreen"
-    allowFullScreen
-    style={{
-      width: "100%",
-      height: "100%",
-      objectFit: "cover",
-      border: "none",
-      pointerEvents: "none" // makes it behave like background
-    }}
-  />
-</div>
+        {/* Placeholder for real transport video, using a royalty free transportation video */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+        >
+          <source src="https://player.cloudinary.com/embed/?cloud_name=dulexknqv&public_id=uiu_hjcz3d" type="video/mp4" />
+        </video>
         {/* Dark overlay */}
         <div style={{
           position: 'absolute',
