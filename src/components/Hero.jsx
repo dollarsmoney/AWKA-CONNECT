@@ -24,7 +24,7 @@ export default function Hero() {
           playsInline
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
         >
-          <source src="../public/uiu.mp4" type="video/mp4" />
+          <source src="https://streamable.com/6xpb41" type="video/mp4" />
         </video>
         {/* Dark overlay */}
         <div style={{
